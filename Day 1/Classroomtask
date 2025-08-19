@@ -1,0 +1,30 @@
+/**Assignment Requirements: 
+ Create the following variables using let (not using var) and check their typeOf
+ a) firstName
+ b) companyName
+ c) mobileNumber
+ d) isAutomation
+ e) hasPlaywright (do not assign)
+Print and confirm the values and data typesvar ph = 9876543210
+console.log(ph)**/
+
+let firstname = 'Swathi'
+console.log(firstname)
+console.log(typeof firstname)
+
+let companyName = 'Neurealm'
+console.log(companyName)
+console.log(typeof companyName)
+
+let mobileNumber = 9876543210
+console.log(mobileNumber)
+console.log(typeof mobileNumber)
+
+let isAutomation = false
+console.log(isAutomation)
+console.log(typeof isAutomation)
+
+let hasPlaywright
+console.log("hasPlaywright= yes " +hasPlaywright)
+console.log(typeof hasPlaywright)
+
