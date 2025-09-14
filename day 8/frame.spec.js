@@ -1,3 +1,13 @@
+// Launch Chromium in non-headless mode
+// - Use required fixtures
+// - Navigate to https://leafground.com/frame.xhtml
+// Requirements:
+// - Interact with the Click Me button inside frame
+// - Assert the text changed after clicking the button
+// - Get the total count of frames present in the page
+// - Interact with the Click Me button present inside the nested frames
+// - Assert the text changed after clicking the button
+
 import {test,expect} from '@playwright/test'
 
 test("Frame homework",async({page})=>{
